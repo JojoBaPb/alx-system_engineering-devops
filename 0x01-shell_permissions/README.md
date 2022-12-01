@@ -16,10 +16,9 @@
 
 8)  a script that sets the permission to the file hello as follows:
 
-    Owner: no permission at all
-    Group: no permission at all
-    Other users: all the permissions
-
+	Owner: no permission at all
+	Group: no permission at all
+	Other users: all the permissions
 
 9)  a script that sets the mode of the file hello to this:
 
@@ -31,10 +30,10 @@
 
 13) a script that changes the group owner to school for the file hello
 
-14)
+14) a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 
-15)
+15) a script that changes the owner and the group owner of _hello to vincent and staff respectively.
 
-16)
+16) a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
 
-17)
+17) a script that will play the StarWars IV episode in the terminal.
