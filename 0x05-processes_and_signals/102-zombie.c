@@ -21,7 +21,7 @@ int infite_while(void)
  */
 int main(void)
 {
-	pid_p child_pid;
+	pid_t child_pid;
 	int i;
 
 	for (i = 0; i < 5; i++)
