@@ -1,0 +1,11 @@
+
+# Config file for ubuntu ssh server.
+# Details ssh_config pg 5 man page.
+
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/school
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials 
