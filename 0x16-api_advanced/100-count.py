@@ -3,7 +3,7 @@
 import requests
 
 
-def count_words(subreddit, word_lst, instances={}, after="", count=0):
+def count_words(subreddit, word_list, instances={}, after="", count=0):
     """Prints counts of words found in hot posts of a subreddit.
 
     Args:
@@ -52,4 +52,4 @@ def count_words(subreddit, word_lst, instances={}, after="", count=0):
         instances = sorted(instances.items(), key=lambda kv: (-kv[1], kv[0]))
         [print("{}: {}".format(k, v)) for k, v in instances]
     else:
-        count_words(subreddit, word_lst, instances, after, count)
+        count_words(subreddit, word_list, instances, after, count)
