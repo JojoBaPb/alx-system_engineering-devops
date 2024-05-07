@@ -1,1 +1,1 @@
-0x06. Regular expression redme edit
+0x06. Regular expression
